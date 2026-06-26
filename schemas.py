@@ -8,10 +8,10 @@ from typing import List
 
 class LoginRequest(BaseModel):
     hwid: str
-    version: str
-    computer_name: str
-    windows: str
-    ip: str
+    version: str = ""
+    computer_name: str = ""
+    windows: str = ""
+    ip: str = ""
 
 
 class ProgramResponse(BaseModel):
